@@ -1,0 +1,47 @@
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  background: #f4f6fb;
+}
+
+
+.icon-tile {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+
+  background: #eef0ff;
+  color: #202b7a;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+.icon-tile svg {
+  font-size: 28px;
+}
+
+
+.water-tile {
+  background: #e4f5ff;
+  color: #0878b9;
+}
+
+
+.MuiCard-root {
+  border: 1px solid #e1e7f1;
+  box-shadow: 0 5px 18px #1f2d5a0f;
+}
+
+
+.MuiTabs-scrollButtons.Mui-disabled {
+  opacity: 0.25;
+}
